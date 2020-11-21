@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    color: #333;
+    background-color: #EEE;
+}
+
+.icons {
+    font-size: 2em;
+}
+
+.icons a {
+    text-decoration: none;
+    color: inherit;
+}
