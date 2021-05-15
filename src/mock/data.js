@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'spower-hour.png',
     title: 'Spower Hour',
     info:
-      'Spower Hour is an Angular 11 web application that lets you listen to the first minute of every song in a Spotify playlist.',
+      'Spower Hour is an Angular 12 web application that lets you listen to the first minute of every song in a Spotify playlist.',
     info2: '',
     url: 'https://spowerhour.joshglazer.com/',
     repo: 'https://github.com/joshglazer/spower-hour',
