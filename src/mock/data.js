@@ -60,6 +60,16 @@ export const projectsData = [
     demoCta: 'More Info',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'imma-let-you-fipsum.png',
+    title: 'Imma Let You Fipsum',
+    info:
+      'Imma Let You Fipsum is a React/Gatsby 3 web application that lets you relive an infamous time in pop culture history while generating "Lorem Ipsum Style" placeholder text for your website, advertisement, or anything else you may be working on.',
+    info2: '',
+    url: 'https://imma-let-you-fipsum.joshglazer.com/',
+    repo: 'https://github.com/joshglazer/imma-let-you-fipsum',
+  },
 ];
 
 // CONTACT DATA
