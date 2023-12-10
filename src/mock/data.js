@@ -2,7 +2,8 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Josh Glazer | Front-End Architect | Full Stack Developer | Really Smart Person', // e.g: 'Name | Developer'
+  title:
+    'Josh Glazer | Software Engineering Leader | Front-End Architect | Full Stack Developer | Really Smart Person', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio.  Check out some cool projects I have built.', // e.g: Welcome to my website
 };
@@ -11,7 +12,8 @@ export const headData = {
 export const heroData = {
   title: 'Hi! My name is',
   name: 'Josh Glazer',
-  subtitle: "I'm a Full Stack Developer, and really enjoy working with Front-End code.",
+  subtitle:
+    "I'm an experienced software engineering leader, and really enjoy working with front-end code.",
   cta: 'Get To Know Me!',
 };
 
@@ -28,6 +30,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'JackTV.png',
+    title: 'JackTv',
+    info:
+      'JackTV is a Next.js web application that allows people to search for videos using the Youtube API, and filters out any video that is longer than 6 minutes.  This is a great tool for toddler bedtime routines (trust me, I can speak from experience).',
+    info2: '',
+    url: 'https://jacktv.joshglazer.com/',
+    repo: 'https://github.com/joshglazer/JackTv',
+  },
   {
     id: nanoid(),
     img: 'SpotYou.png',
